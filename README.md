@@ -13,5 +13,9 @@ La página está dividida en secciones que incluyen información sobre el equipo
 - **Google Fonts**: para usar la fuente *Urbanist*.
 - **Diseño responsivo**: para pantallas de 480px y 768px.
 
+## Enlace al Proyecto
 
+Puedes ver el proyecto en vivo en el siguiente enlace:
+
+[Ver el proyecto en vivo](https://haydeenb.github.io/proyecto_final_css/)
 
