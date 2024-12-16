@@ -1,86 +1,84 @@
 body{
     font-family: "Urbanist", sans-serif;
-}
+  }
 .header-container {
-    display: flex; /* Usamos flexbox para alinear los elementos */
-    align-items: center; /* Alinea todos los elementos (imagen y enlaces) al centro verticalmente */
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    padding: 10px; /* Un poco de padding alrededor */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
   }
 
 .wrapper-image {
-    display: flex; /* Usamos flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    margin-top: 20px; /* Opcional: asegura que el contenedor ocupe toda la pantalla */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
   }
   
 .wrapper-image img {
-    max-width: 250px; /* Controla el tamaño máximo del logo */
-    width: 100%; /* Adapta el tamaño al contenedor */
-    height: auto; /* Mantiene las proporciones de la imagen */
+    max-width: 250px; 
+    width: 100%; 
+    height: auto;
     
   }
-  .header-text a {
-    text-decoration: none; /* Elimina el subrayado */
-    margin: 0 10px; /* Espaciado horizontal entre los enlaces */
-    color: #0a0a0a; /* Color del texto de los enlaces */
-    font-size: 1.2rem; /* Tamaño de fuente para los enlaces */
+.header-text a {
+    text-decoration: none; 
+    margin: 0 10px; 
+    color: black; 
+    font-size: 1.2rem; 
   }
   
-  h1{
+h1{
     display: flex;
     justify-content: center;
   }
 
-  p{
+p{
     display: flex;
     justify-content: center;
     font-size: 14px;
   }
 
-  .wrapper-text {
-    background-color: rgba(101, 40, 254, 0.975); /* Fondo morado claro */
-    text-align:left; /* Centrar el texto horizontalmente */
-    padding: 20px; /* Espaciado interno para que el texto no esté pegado a los bordes */
-    border-radius: 15px; /* Bordes redondeados para un diseño más amigable */
-    color: #ffffff; /* Color blanco para el texto */
-    font: size 22px;; /* Tamaño del texto (ajústalo según tu necesidad) */
-    line-height: 1.5; /* Espaciado entre líneas para mejor legibilidad */
-    margin: 0; /* Elimina márgenes adicionales alrededor del texto */
+.wrapper-text {
+    background-color: rgba(101, 40, 254, 0.975); 
+    text-align:left; 
+    padding: 20px; 
+    border-radius: 15px; 
+    color: white;
+    font: size 22px;; 
+    line-height: 1.5;
+    margin: 0; 
     margin-bottom: 15px;
   }    
-
-  /* Contenedor de las columnas */
 
  /* Estilos para el contenedor de la imagen y texto */
 .wrapper-box {
    
-    max-width: 590px; /* Establece un ancho máximo para el contenedor */
-    margin: 0; /* Centra el contenedor en la página */
+    max-width: 590px; 
+    margin: 0; 
   }
   
-  /* Estilo para la imagen */
-  .wrapper-box img {
+  /* Estilo para la imagen de la mujer platicando */
+.wrapper-box img {
     width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Hace que la imagen se ajuste bien al contenedor sin deformarse */
-    margin-bottom: 15px; /* Añade un espacio debajo de la imagen */
+    height: auto; 
+    object-fit: cover; 
+    margin-bottom: 15px; 
     border-radius: 10px;
   }
   
-  /* Estilo para el texto */
-  .wrapper-box h4 {
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente del título */
+  /* Estilo para el texto debajo de la imagen */
+.wrapper-box h4 {
+    font-size: 1.5rem; 
     margin-top: 10px;
   
-    margin-bottom: 10px; /* Añade un espacio debajo del título */
+    margin-bottom: 10px; 
     text-align: left;
   }
   
   .wrapper-box p {
-    font-size: 1rem; /* Ajusta el tamaño de la fuente del párrafo */
-    color:black; /* Color grblais para el texto */
+    font-size: 1rem; 
+    color:black; 
     text-align: left;
   }
  
@@ -88,68 +86,69 @@ body{
   /* Estilo para el botón */
 button {
     font-family: "Urbanist", sans-serif;
-    display:flex; /* Usamos flexbox para alinear la imagen de la flecha */
+    display:flex; 
     align-items: center;
-    justify-content: space-between; /* Centra el texto */
-    height: 40px; /* Establece la altura del botón */
-    width: 220px; /* Establece el largo del botón */
-    background-color: black; /* Color de fondo negro */
-    color: white; /* Color del texto blanco */
-    border: none; /* Elimina el borde por defecto */
+    justify-content: space-between; 
+    height: 40px;
+    width: 220px; 
+    background-color: black; 
+    color: white; 
+    border: none; 
     border-radius:5px ;
-   
-    padding:10px 8px; /* Elimina el padding extra */
-    font-size: 14px; /* Ajusta el tamaño del texto */
-}   
+    padding:10px 8px; 
+    font-size: 14px; 
+  }   
   
-  /* Estilo para la imagen dentro del botón */
-  button img {
-    width: 30px !important; /* Forza la imagen a tener 10px de ancho */
+  /* Estilo para la imagen de la flecha dentro del botón */
+button img {
+    width: 30px !important;
     height:auto;
     margin-left:10px;
     display: inline-block;
     margin-top: 15px;   
-}
+  }
+
 .wrapper-text, .header-text{
   display: block;
 }
 .main-container {
-  display: flex; /* Activa el diseño flex */
-  justify-content: space-between; /* Espacia las columnas uniformemente */
-  align-items: flex-start; /* Alinea las columnas por la parte superior */
-  gap:5px; /* Espacio entre columnas */
-  flex-wrap: nowrap; /* Evita que las columnas se envuelvan */
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap:5px; 
+  flex-wrap: nowrap; 
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
 .column, .column2 {
-  flex: 1; /* Ambas columnas ocupan espacio proporcional */
-  max-width: 50%; /* Asegura que no excedan el ancho disponible */
-  box-sizing: border-box; /* Incluye el padding y borde dentro del ancho */
-  margin-right:2%; /* Elimina márgenes adicionales */
+  flex: 1; 
+  max-width: 50%; 
+  box-sizing: border-box; 
+  margin-right:2%; 
   margin-left:10px;
   padding: 0;
 }
 
-/*aqui puse los estilos*/
+/*Aqui puse los estilos para las pantallas*/
 
+/*Inicia el de 480px*/
 @media screen and (max-width: 480px) {
   .wrapper-image img {
     display: block;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
   }
   
   .wrapper-text, .header-text {
-    display: none; /* Oculta los elementos */
+    display: none; 
   }
 
   .main-container {
-    flex-direction: column; /* Apila las columnas */
-    justify-content: flex-start; /* Alinea al inicio */
-    gap: 20px; /* Espacio entre columnas apiladas */
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 20px; 
     max-width: fit-content;
   }
 
@@ -162,7 +161,7 @@ button {
   }
 
   .column, .column2 {
-    max-width: 100%; /* Ocupa todo el ancho */
+    max-width: 100%; 
     margin: 0; 
   }
 }
