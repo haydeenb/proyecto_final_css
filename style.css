@@ -51,14 +51,14 @@ p{
     margin-bottom: 15px;
   }    
 
- /* Estilos para el contenedor de la imagen y texto */
+/* Estilos para el contenedor de la imagen y texto */
 .wrapper-box {
    
     max-width: 590px; 
     margin: 0; 
   }
   
-  /* Estilo para la imagen de la mujer platicando */
+/* Estilo para la imagen de la mujer platicando */
 .wrapper-box img {
     width: 100%;
     height: auto; 
@@ -67,7 +67,7 @@ p{
     border-radius: 10px;
   }
   
-  /* Estilo para el texto debajo de la imagen */
+/* Estilo para el texto debajo de la imagen */
 .wrapper-box h4 {
     font-size: 1.5rem; 
     margin-top: 10px;
@@ -83,7 +83,7 @@ p{
   }
  
   
-  /* Estilo para el botón */
+/* Estilo para el botón */
 button {
     font-family: "Urbanist", sans-serif;
     display:flex; 
@@ -99,7 +99,7 @@ button {
     font-size: 14px; 
   }   
   
-  /* Estilo para la imagen de la flecha dentro del botón */
+/* Estilo para la imagen de la flecha dentro del botón */
 button img {
     width: 30px !important;
     height:auto;
@@ -108,9 +108,12 @@ button img {
     margin-top: 15px;   
   }
 
+/*Estilo del header*/  
 .wrapper-text, .header-text{
   display: block;
 }
+
+/*Aquí van los estilos de la clase column abarca h1, p y h3*/
 .main-container {
   display: flex; 
   justify-content: space-between;
@@ -121,6 +124,7 @@ button img {
   margin-bottom: 30px;
 }
 
+/*Estilo de las dos columnas*/
 .column, .column2 {
   flex: 1; 
   max-width: 50%; 
@@ -166,17 +170,16 @@ button img {
   }
 }
 
-
-/*pantalla de 768*/
+/*Inicia para la pantalla de 768px*/
 @media (min-width: 481px) and (max-width: 768px) {
   .wrapper-image img {
     display: block;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    max-width:100%; /* Ajusta el ancho máximo al contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; 
+    max-width:100%; 
+    height: auto;
   }
   .column,.header-text {
-    display: none; /* Oculta los elementos */
+    display: none;
   }
   .column2{
     max-width: 100%;
